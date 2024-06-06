@@ -7,14 +7,6 @@ BDS^3 2024
 
 _Biological Data Science Summer School, 7-20 July 2024, Uzhhorod, Ukraine._
 
-Матеріали до практичного курсу з аналізу даних live-cell imaging та свторення плагінів для napari.
-
-
-
-
-
-
-
 
 ---
 
@@ -60,7 +52,7 @@ conda env create -f bds3-img-env.yml
 
 Створення оточення з мінімальним набором бібілотек:
 ```
-conda create bds3-img-env python>3.9 jupyter numpy matplotlib
+conda create -n bds3-img-env python>3.9 jupyter numpy matplotlib
 ```
 
 Запуск оточення:
@@ -111,6 +103,7 @@ python -m pip install "napari[all]"
 
 - [Scikit-image examples](https://scikit-image.org/docs/stable/auto_examples/index.html)
 - [Image processing learning resorces](https://homepages.inf.ed.ac.uk/rbf/HIPR2/hipr_top.htm)
+- [The Carl Zeiss Microscopy Online Campus](https://zeiss-campus.magnet.fsu.edu/index.html)
 - [Scientific Volume Imaging](https://svi.nl/Huygens-Imaging-Academy)
 - [Introduction to Modeling for Neuroscience](https://dabane-ghassan.github.io/ModNeuro/)
 - [Convolutions in image processing, YouTube](https://www.youtube.com/watch?v=8rrHTtUzyZA)
@@ -121,6 +114,7 @@ python -m pip install "napari[all]"
 - [Fundamentals of Fluorescence Imaging](https://www.taylorfrancis.com/books/edit/10.1201/9781351129404/fundamentals-fluorescence-imaging-guy-cox)
 - [Imaging Cellular and Molecular Biological Functions](https://link.springer.com/book/10.1007/978-3-540-71331-9)
 - [Handbook of Biological Confocal Microscopy](https://link.springer.com/book/10.1007/978-0-387-45524-2)
+- [An introduction to optical super-resolution microscopy for the adventurous biologist](https://www.researchgate.net/publication/323073291_An_introduction_to_optical_super-resolution_microscopy_for_the_adventurous_biologist)
 - [Nanoscopy and Multidimensional Optical Fluorescence Microscopy](https://www.tandfonline.com/doi/pdf/10.1080/00107514.2011.580375)
 - [Enzyme Kinetics: Principles and Methods](https://onlinelibrary.wiley.com/doi/book/10.1002/9783527806461)
 - [Calcium Signaling in Dendrites and Spines: Practical and Functional Considerations](https://pubmed.ncbi.nlm.nih.gov/18817730/)
