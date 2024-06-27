@@ -1,6 +1,3 @@
-# Docs and devs
-.diff/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 .ipynb_checkpoints
