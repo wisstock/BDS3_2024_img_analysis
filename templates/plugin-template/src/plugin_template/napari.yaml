@@ -1,0 +1,20 @@
+name: plugin-template
+contributions:
+  commands:
+    - id: plugin-template.widget_demo
+      title: Widget demo
+      python_name: plugin_template._widget:widget_demo
+    - id: plugin-template.plot_demo
+      title: Plot demo
+      python_name: plugin_template._widget:plot_demo
+    - id: plugin-template.threading_demo
+      title: Threading demo
+      python_name: plugin_template._widget:threading_demo
+
+  widgets:
+    - command: plugin-template.widget_demo
+      display_name: Widget demo
+    - command: plugin-template.plot_demo
+      display_name: Plot demo
+    - command: plugin-template.threading_demo
+      display_name: Threading demo
