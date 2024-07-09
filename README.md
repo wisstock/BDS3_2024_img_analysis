@@ -27,9 +27,10 @@ _Biological Data Science Summer School, 7-20 July 2024, Uzhhorod, Ukraine._
 
 ## Підготовка оточення
 #### Необхідні бібліотеки
-- Python >= 3.8
+- Python
 - Jupyter
 - Numpy
+- Pandas
 - Scipy
 - Scikit-image
 - Matplotlib
@@ -45,14 +46,9 @@ _Biological Data Science Summer School, 7-20 July 2024, Uzhhorod, Ukraine._
 
 Наступні команди вводити в Unix-термінал (у випадку Linux або MacOS) або Anaconda Prompt (у випадку Windows).
 
-Створення повного оточення з YAML файла:
-```
-conda env create -f bds3-img-env.yml
-```
-
 Створення оточення з мінімальним набором бібілотек:
 ```
-conda create -n bds3-img-env python>3.9 jupyter numpy matplotlib
+conda create -n bds3-img-env python>3.9 jupyter numpy matplotlib pandas
 ```
 
 Запуск оточення:
@@ -63,6 +59,11 @@ conda activate bds3-img-env
 Вихід з оточення:
 ```
 conda deactivate bds3-img-env
+```
+
+Створення повного оточення з YAML файла:
+```
+conda env create -f bds3-img-env.yml
 ```
 
 #### Встановлення napari
@@ -86,7 +87,7 @@ python -m pip install "napari[all]"
 Встановлення та налаштування:
 - [Встановіть](https://code.visualstudio.com/) __Visual Studio Code__ відповідно Вашій оперційній системі
 - Для роботи з кодом Python та Jupyter-ноутбуками користуючись вкладкою _Розширення_ (_Extensions_) на лівій панелі IDE встановіть розширення __Python__ та __Jupyter__
-- Для запуску Jupyter-ноутбука в середовищі Conda натисніть на меню _Select Kernel_ у верхньому правому кутку вікна відкритого Jupyter-ноутбука та оберіть __bds3-img-env__ серед запропонованих варіантів інтерпретаторів чи оточень (у випадку такого підключення середовища запуск оточення через Unix-термінал/Anaconda Prompt не потрібен)
+- Для запуску Jupyter-ноутбука в середовищі Conda натисніть на меню _Select Kernel_ у верхньому правому кутку вікна відкритого Jupyter-ноутбука, оберіть пункт _Python Environment_ та необхідне нам оточеня  __bds3-img-env__ серед запропонованих варіантів інтерпретаторів чи оточень (у випадку такого підключення запуск оточення через Unix-термінал/Anaconda Prompt не потрібен)
 
 
 ## Обліковий запис PyPI (optional)
